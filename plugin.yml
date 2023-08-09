@@ -1,0 +1,17 @@
+name: Trader
+authors:
+  - alvin0319
+  - phuongaz
+main: TradeNPC\Main
+version: 1.0.0
+api: 5.0.0
+
+commands:
+  trader:
+    description: "Trader command"
+    permission: tradenpc.command.use
+    
+permissions:
+  tradenpc.command.use:
+    default: op
+    description: "TradeNPC Command Permission"
